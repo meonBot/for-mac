@@ -1,20 +1,28 @@
 <!--
-Please, check https://docs.docker.com/docker-for-mac/troubleshoot/.
-Issues without logs and details cannot be debugged, and will be closed.
 
-Issues unrelated to Docker for Mac will be closed.  In particular, see
-  - https://github.com/docker/compose/issues for docker-compose
-  - https://github.com/docker/machine/issues for docker-machine
-  - https://github.com/moby/moby/issues for Docker daemon
-  - https://github.com/docker/docker.github.io/issues for the documentation
+************************************************************************************
+*READ ME FIRST*
+
+This repository is for reporting bugs with the Docker Desktop for Mac software,
+which we respond to on a best-effort basis.
+
+Support requests in this repository (i.e., trouble installing or using the
+software) will be ignored, but personalized support is available to Docker Pro and
+Team customers at https://hub.docker.com/support/desktop/, and community support is
+available from the Docker community Slack (https://www.docker.com/docker-community).
+
+Issues without sufficient detail to debug them will be closed. They generally need
+a clear title and description, steps to reproduce, and a diagnostics ID. See
+https://docs.docker.com/docker-for-windows/troubleshoot/#diagnose-and-feedback for
+how to generate a diagnostics ID either from inside the app or from the command line.
+************************************************************************************
+
 -->
 
 
-<!--
-Replace `- [ ]` with `- [x]`, or click after having submitted the issue.
--->
-
-  - [ ] I have tried with the latest version of my channel (Stable or Edge)
+<!-- Click these checkboxes after submitting, or place an "x" in them. -->
+  - [ ] I have tried with the latest version of Docker Desktop
+  - [ ] I have tried disabling enabled experimental features
   - [ ] I have uploaded Diagnostics
   - Diagnostics ID:
 
@@ -31,13 +39,8 @@ Please, help us understand the problem.  For instance:
   - A reproducible case if this is a bug, Dockerfiles FTW.
 -->
   - macOS Version:
-
-### Diagnostic logs
-<!-- Full output of the diagnostics from "Diagnose & Feedback" in the menu ... -->
-```
-Docker for Mac: version...
-
-```
+  - Intel chip or Apple chip:
+  - Docker Desktop Version:
 
 ### Steps to reproduce the behavior
 <!--
